@@ -13,7 +13,7 @@ rWheel = port.F
 # Robot parameters
 wheelRadius = 5.6# cm (For the blue spike prime wheels)
 wheelCircumference = 2 * math.pi * wheelRadius
-Kp = 2
+Kp = 2 #see https://fll-pigeons.github.io/gamechangers/gyro_pid.html
 DEBUG = False # If you want to see line graphs
 
 # Initialize motor pair
